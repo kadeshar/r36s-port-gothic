@@ -1,0 +1,17 @@
+# Local GothicN3DS profile: New 3DS memory mode is a platform requirement.
+# Baseline follows frontend/src/settings.rs Advanced::compatible() exactly;
+# the remaining fields inherit upstream defaults. No title-specific hacks.
+name = "Gothic 3DS"
+
+[advanced]
+new3ds = true
+skip_bottom = false
+skip_right_eye = false
+shown_only = false
+fast = false
+gpu_texture_copies = false
+in_place = false
+past_drawing = false
+draw_ranges = false
+exact_events = true
+background_shaders = false

@@ -1,0 +1,6 @@
+name = "Pokémon Y"
+
+# waiting for each GPU list held the game to ~23 fps, time going on
+# while the GPU draws keeps it at 30
+[advanced]
+realtime_gpu = true
