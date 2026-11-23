@@ -21,6 +21,40 @@ The Android port started from **gopnikcosmoslav2077**'s work in
 into an Android window and onto a second display, touch, AAudio sound and the
 first APK build.
 
+## Contributors
+
+Code from these people is in Pocket Native, through their commits and
+pull requests:
+
+- **gopnikcosmoslav2077**: the Android port ([#8](https://github.com/whovian64/pocket-native/pull/8)),
+  the profiler, hint and shader diagnostics ([#7](https://github.com/whovian64/pocket-native/pull/7)),
+  and faster shader building on first runs ([#42](https://github.com/whovian64/pocket-native/pull/42))
+- **AeolusUX**: the RG52 Mini's stick and screen rotation, the RK3566
+  right stick and profile names ([#31](https://github.com/whovian64/pocket-native/pull/31)),
+  the battery on Knulli, the Pokémon profiles ([#9](https://github.com/whovian64/pocket-native/pull/9))
+  and README fixes ([#13](https://github.com/whovian64/pocket-native/pull/13))
+- **iArti**: the RG DS under ROCKNIX, both panels, both touch screens and
+  its pad ([#17](https://github.com/whovian64/pocket-native/pull/17)),
+  every toggle shown in the advanced settings ([#16](https://github.com/whovian64/pocket-native/pull/16))
+  and the tables buffer bound from the start ([#28](https://github.com/whovian64/pocket-native/pull/28))
+- **Sekyleky**: the New 3DS system modes' memory ([#33](https://github.com/whovian64/pocket-native/pull/33)),
+  Stretch filling both displays on two-screen handhelds ([#32](https://github.com/whovian64/pocket-native/pull/32))
+  the device's motion sensors on Android ([#53](https://github.com/whovian64/pocket-native/pull/53))
+  and texture packs ([#52](https://github.com/whovian64/pocket-native/pull/52))
+- **kxn203**: game profiles ([#3](https://github.com/whovian64/pocket-native/pull/3))
+  the script that rebuilds every game built before ([#34](https://github.com/whovian64/pocket-native/pull/34))
+  and Bravely Default's real-time GPU ([#67](https://github.com/whovian64/pocket-native/pull/67))
+- **Kvn0l**: the Monster Hunter 4 Ultimate profile
+- **peuic**: the Miyoo Flip under spruceOS ([#27](https://github.com/whovian64/pocket-native/pull/27))
+- **sabogalc**: Z3DS-compressed `.zcci` games ([#29](https://github.com/whovian64/pocket-native/pull/29))
+- **trbocode**: the muOS controls fix ([#5](https://github.com/whovian64/pocket-native/pull/5))
+- **kadeshar**: the DSP filter fix that keeps PCM sound from going silent ([#37](https://github.com/whovian64/pocket-native/pull/37))
+- **ecer96**: culling that leaves a mesh drawn more than once alone,
+  which made Super Mario 3D Land's coins and blocks flicker
+- **birgitzprinz**: the RG351P/M's OSH PB pad ([#45](https://github.com/whovian64/pocket-native/pull/45))
+- **AleWiccan**: TrimUI handhelds on their stock firmware's PowerVR driver ([#70](https://github.com/whovian64/pocket-native/pull/70))
+- **buffgwen**: nuubOS's Wayland window ([#82](https://github.com/whovian64/pocket-native/pull/82))
+
 ## Menu font
 
 The menu uses [M PLUS Rounded 1c](https://fonts.google.com/specimen/M+PLUS+Rounded+1c),

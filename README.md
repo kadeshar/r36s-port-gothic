@@ -2,7 +2,7 @@
 
 Port of **Gothic 1** and **Gothic 2: Night of the Raven** tailored for the **R36S** handheld retro gaming console (Rockchip RK3326 SoC, 4x Cortex-A35, 1 GB RAM).
 
-The project combines the **Gothic Port Preparer** standalone Windows utility (.NET Framework 4.8), the **GothicN3DS** reimplementation engine (by ponuno), the ahead-of-time (AOT) recompiled AArch64 runtime via **pocket-native (v0.5.0)** (Zakuro / 3dsrecomp), and hardware-accelerated DRM/KMS Mali-G31 graphics on Rockchip RK3326.
+The project combines the **Gothic Port Preparer** standalone Windows utility (.NET Framework 4.8), the **GothicN3DS** reimplementation engine (by ponuno), the ahead-of-time (AOT) recompiled AArch64 runtime via **pocket-native (v0.6.1)** (Zakuro / 3dsrecomp), and hardware-accelerated DRM/KMS Mali-G31 graphics on Rockchip RK3326.
 
 ---
 
@@ -76,7 +76,7 @@ Copy the generated folder and root launcher script to the `ports/` directory on 
   - `Services/` — Game detection, tool dependency manager, DirectMusic rendering, asset baking, and port packager.
   - `UI/` — User interface forms and layout (`MainForm.cs`).
 - **[`RuntimeTemplate/`](RuntimeTemplate/):** R36S target runtime template files:
-  - `pocket-native/` — AArch64 **pocket-native (v0.5.0)** executable with RK3326 audio fix, `run.sh` launcher, and `power.sh` CPU script.
+  - `pocket-native/` — AArch64 **pocket-native (v0.6.1)** executable with RK3326 audio fix, `run.sh` launcher, and `power.sh` CPU script.
   - `games/000400000FA3D500/` — Precompiled AArch64 `title.so` library, container `game.3ds`, and replacement system font.
 - **[`tools/`](tools/):** Cached Windows binaries (`g3ds-bake.exe`, `dmrender.exe`) used during asset preparation.
 - **[`build.bat`](build.bat):** Automated MSBuild build script for compiling `GothicPortPreparer.exe` from source.
@@ -148,7 +148,7 @@ Thank you to **ponuno** and the contributors of [GothicN3DS](https://github.com/
 
 Thank you to the maintainers and contributors of the components that make this handheld port possible:
 
-- **pocket-native (v0.5.0)** by **whovian64** and contributors — AOT 3DS recompiler runtime (MIT License)
+- **pocket-native (v0.6.1)** by **whovian64** and contributors — AOT 3DS recompiler runtime (MIT License)
 - **Zakuro** and **3dsrecomp** by **fearkov** — 3DS emulator core and ahead-of-time recompiler (MIT License)
 - **PortMaster** community — open handheld gaming runtime ecosystem
 - **Azahar / citra_system_archives** by **B3n30** — open-source shared font replacement (Montserrat / GNU Unifont)
